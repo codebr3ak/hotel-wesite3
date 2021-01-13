@@ -1,0 +1,27 @@
+body
+{
+    font-family: "sans- serif";
+    color: white;
+    background-size: cover;
+    margin: auto;
+}
+.container-fluid
+{
+    text-align: center;
+    padding-top: 0;
+}
+.centered
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.centered h5
+{
+    font-family: "PT Serif";
+    font-size: 30px;
+    color: wheat;
+    text-align: center;
+}
