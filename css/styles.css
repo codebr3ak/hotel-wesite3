@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Copse|Delius+Swash+Caps|Gabriela|Unkempt&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+.maincontainer{
+    background-image: url('../');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding-top:4%; 
+    font-family: 'Gabriela', serif;
+    
+  }
+  .maincontainer h1{
+    padding: 2px;
+    margin: 5px;
+  }
+  .maincontainer p{
+    padding: 2px;
+  }
+.services{
+    text-align: center;
+    background-image: url("../images/room.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Copse', serif;
+    font-size: 18px;
+  }
+  .services h2{
+    font-family: 'Gabriela', serif;
+    
+  }
+  #servicesoverlay{
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+.list {
+    text-align: left;
+
+}
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
