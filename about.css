@@ -11,10 +11,11 @@
 .banner h1{
     color: white;
     position: absolute;
-    top: 15%;
+    top: 35%;
     left: 17em;
     right: 17em;
-    font-size: 38px;
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .part2{
@@ -97,28 +98,32 @@ img{
     margin-top: 35px;
 }
 
-nav{
-    background: #F4F4F4;
-    padding: 20px;
-    position: sticky;
+/* Navbar */
+#navbar {
+    background: #333;
+    /* height:  vh; */
+    padding: 2px;
     top: 0px;
-    z-index: 1;
+    text-align: center;
   }
-  nav ul{
+
+nav ul{
     white-space: nowrap;
     max-width: 1200px;
     margin: 0 auto;
     text-align: center;
-  }
-  nav li{
-    width: 25%;
+    margin-left: 0px;
+}
+
+nav li{
+    width: 15%;
     display: inline-block;
-    font-size: 24px;
-  }
-  nav li a{
-    text-decoration: none;
-    color: #4B4B4B;
-  }
-  nav li a:hover{
-    text-decoration: underline;
-  }
+}
+
+nav li :hover{
+    color: greenyellow;
+}
+
+.extream{
+    background: #F4F4F4;
+}
