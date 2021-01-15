@@ -127,3 +127,10 @@ nav li :hover{
 .extream{
     background: #F4F4F4;
 }
+
+footer{
+    background: #F63232;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
